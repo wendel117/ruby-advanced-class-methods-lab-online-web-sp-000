@@ -38,6 +38,7 @@ end
   end
 
   def self.alphabetical
+    song.name = song
     song.name.sort!
   end
 
