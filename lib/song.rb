@@ -40,7 +40,6 @@ end
   def self.alphabetical
     @@all.each do {|name| song.name.sort!}
   end
-end
 
   def self.all
     @@all
