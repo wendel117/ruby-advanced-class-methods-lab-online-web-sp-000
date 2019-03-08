@@ -33,7 +33,6 @@ end
     if result
       result
     else
-
       self.create_by_name(name)
     end
   end
