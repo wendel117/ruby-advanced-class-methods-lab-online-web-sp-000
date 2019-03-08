@@ -50,7 +50,7 @@ def self.new_from_filename(filename)
     song
 end
 
-def self.create_from_filename(filename)
+def self.create_from_filename
   self.new_from_filename
   save
 end
