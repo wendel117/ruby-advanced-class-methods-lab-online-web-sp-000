@@ -29,11 +29,11 @@ end
   end
 
   def self.find_or_create_by_name
-    result = self.find_by_name(title)
+    result = self.find_by_name(name)
     if result
       result
     else
-      self.create_by_name(title)
+      self.create_by_name(name)
     end
   end
 
