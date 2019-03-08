@@ -32,7 +32,7 @@ end
     result = self.find_by_name(name)
     if result
       result
-    elsif false
+    else
 
       self.create_by_name(name)
     end
