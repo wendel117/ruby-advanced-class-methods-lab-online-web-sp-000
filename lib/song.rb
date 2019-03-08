@@ -38,7 +38,7 @@ end
   end
 
   def self.alphabetical
-    @@all.each do {|name| song.name.sort!}
+    self.all.sort_by {|song| song.name}
   end
 
   def self.all
