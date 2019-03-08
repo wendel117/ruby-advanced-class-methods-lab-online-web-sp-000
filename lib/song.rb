@@ -38,7 +38,7 @@ end
   end
 
   def self.alphabetical
-    @@all.sort!
+    song.name.sort!
   end
 
   def self.all
