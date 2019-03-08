@@ -50,10 +50,6 @@ def self.new_from_filename(filename)
     song
 end
 
-def save
-  self.class.all << self
-end
-
 def self.create_from_filename(filename)
   result = self.new_from_filename(filename)
     song = self.create
