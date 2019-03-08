@@ -41,7 +41,7 @@ end
     self.all.sort_by {|song| song.name}
   end
 
-def self.new_from_filename(name)
+def self.new_from_filename(filename)
   song_array = filename.split(" - ")
     song_array[1] = song_array[1].chomp(".mp3")
     song = self.new
