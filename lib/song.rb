@@ -20,7 +20,7 @@ end
 
   def self.create_by_name(name) #working
     song = self.create #allows for a class instance to be created
-    song.name = name #assigns the reader/writer 
+    song.name = name #assigns the reader/writer
     song #returns the new song
   end
 
