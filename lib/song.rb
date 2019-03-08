@@ -37,7 +37,7 @@ end
     end
   end
 
-  def self.alphabetical(name)
+  def self.alphabeticals
   end
 
   def self.all
