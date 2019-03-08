@@ -50,6 +50,10 @@ def self.new_from_filename(filename)
     song
 end
 
+def self.create_from_filename(filename)
+end
+
+
   def self.all
     @@all
   end
