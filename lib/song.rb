@@ -38,6 +38,7 @@ end
   end
 
   def self.alphabeticals
+    @@all.sort!
   end
 
   def self.all
